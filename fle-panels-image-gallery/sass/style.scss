@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+}
+
+.first {
+  background-image: url('/image/pexels-airam-datoon-12303537.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 0;
+  height: 100vh;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 3rem;
+  color: #FF37A6;
+  font-weight: 650;
+}
+
+.second {
+  background-image: url('/image/pexels-alleksana-4238351.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 3rem;
+  color: #0D00A4;
+  font-weight: 650;
+}
+
+.third {
+  background-image: url('/image/pexels-soner-arkan-13372928.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 3rem;
+  color: #FE4A49;
+  font-weight: 650;
+}
+
+.fourth {
+  background-image: url('/image/pexels-yulia-pribytkova-13820499.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 3rem;
+  color: #0D00A4;
+  font-weight: 650;
+}
