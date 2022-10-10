@@ -6,6 +6,7 @@
 
 .main {
   display: flex;
+  overflow: hidden;
 }
 
 .first {
@@ -33,7 +34,6 @@
   background-image: url("/image/pexels-alleksana-4238351.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-  height: 100vh;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -48,7 +48,6 @@
   background-image: url("/image/pexels-soner-arkan-13372928.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-  height: 100vh;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -63,7 +62,6 @@
   background-image: url("/image/pexels-yulia-pribytkova-13820499.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-  height: 100vh;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -76,4 +74,8 @@
 
 #last-child {
   transform: translateY(100vh);
+}
+
+.open {
+  flex: 5;
 }/*# sourceMappingURL=style.css.map */
